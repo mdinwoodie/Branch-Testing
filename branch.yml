@@ -1,0 +1,11 @@
+---
+- name: Print Message
+  hosts: localhost
+  
+  tasks:
+  
+  - name: Details
+    debug:
+      msg: "This is the master branch"
+    #async: 3600
+    poll: 30
