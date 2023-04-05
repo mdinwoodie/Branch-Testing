@@ -6,6 +6,6 @@
   
   - name: Debug message.
     debug:
-      msg: "This is the master branch"
+      msg: "This is the main branch"
     #async: 3600
     poll: 30
